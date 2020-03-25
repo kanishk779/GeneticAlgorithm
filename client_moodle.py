@@ -39,7 +39,7 @@ def send_request(id, vector, path):
     response = requests.post(api, data={'id':id, 'vector':vector}).text
     if "reported" in response:
         print(response)
-        exit()
+        sys.exit()
 
     return response
 
