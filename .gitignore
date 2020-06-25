@@ -144,3 +144,4 @@ static
 
 # Visual Studio Code
 .vscode/
+.idea/
